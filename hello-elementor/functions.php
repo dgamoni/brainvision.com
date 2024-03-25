@@ -178,3 +178,6 @@ if ( ! function_exists( 'hello_elementor_body_open' ) ) {
 		}
 	}
 }
+
+// load core functions
+require_once get_stylesheet_directory() . '/core/load.php';
